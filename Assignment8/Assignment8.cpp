@@ -96,30 +96,20 @@ int main(int argc, const char * argv[]) {
 			case 3: // find shortest path
 				std::cout << "Enter a starting city:" << std::endl;
 				getline(std::cin, start);
-				std::cin.clear();
-				std::cin.ignore(1000,'\n');
 				std::cout << "Enter an ending city:" << std::endl;
 				getline(std::cin, end);
-				std::cin.clear();
-				std::cin.ignore(1000,'\n');
 				zCitiesGraph->FindShortestPath(start, end);
 				break;
 			case 4: // find shortest distance
 				std::cout << "Enter a starting city:" << std::endl;
 				getline(std::cin, start);
-				std::cin.clear();
-				std::cin.ignore(1000,'\n');
 				std::cout << "Enter an ending city:" << std::endl;
 				getline(std::cin, end);
-				std::cin.clear();
-				std::cin.ignore(1000,'\n');
 				zCitiesGraph->FindShortestDistance(start, end);
 				break;
 			case 5: // extra credit
 				std::cout << "Enter a starting city:" << std::endl;
 				getline(std::cin, start);
-				std::cin.clear();
-				std::cin.ignore(1000,'\n');
 				break;
 			case 6: // quit
 				std::cout << "Goodbye!" << std::endl;
